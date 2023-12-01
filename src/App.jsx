@@ -1,5 +1,13 @@
+import Login from './pages/Login/Login.jsx';
+import GlobalStyles from './styles/GlobalStyles';
+
 function App() {
-  return <h1>Olá</h1>;
+  return (
+    <>
+      <Login />
+      <GlobalStyles />
+    </>
+  );
 }
 
 export default App;
